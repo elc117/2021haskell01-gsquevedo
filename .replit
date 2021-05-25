@@ -1,0 +1,2 @@
+language = "undefined"
+run = "haskell01parte1.hs"
