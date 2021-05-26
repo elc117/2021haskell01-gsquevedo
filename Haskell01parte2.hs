@@ -31,4 +31,3 @@ calcAreas x = map circleArea x
 
 countSpaces :: String -> Int
 countSpaces x = length(filter isSpace x)
-
