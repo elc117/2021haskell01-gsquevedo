@@ -1,2 +1,6 @@
 language = "undefined"
+<<<<<<< HEAD
 run = ""
+=======
+run = "haskell01parte1.hs"
+>>>>>>> 75d743ba7a201fc192b930738231dd36ff82e2b7
