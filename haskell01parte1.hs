@@ -27,7 +27,6 @@ isVowel vogal = if(vogal == 'a' || vogal == 'e' || vogal == 'i' || vogal == 'o' 
 hasEqHeads :: [Int] -> [Int] ->Bool
 hasEqHeads lis lista = if (head lis) == (head lista) then True else False
 
-
 listVogal :: Char -> Bool
 listVogal v = elem v "aeiouAEIOU"
 
