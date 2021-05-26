@@ -31,3 +31,6 @@ calcAreas x = map circleArea x
 
 countSpaces :: String -> Int
 countSpaces x = length(filter isSpace x)
+
+charFound :: Char -> String -> Bool
+charFound x y = if length(filter (==x)y) > 0 then True else False
